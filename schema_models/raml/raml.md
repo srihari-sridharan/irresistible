@@ -88,9 +88,10 @@ baseUri: http://api.irresistibleapis.com/v1
         application/json:
           example: |
             { "pizza" : {
-              "name": "Maui Wowie",
-              "id"  : "123.456.789.101",
-              "toppings": ["1"]
+                "name": "Maui Wowie",
+                "id"  : "123.456.789.101",
+                "toppings": ["1"]
+              }
             }
       responses:
         204:
@@ -187,8 +188,9 @@ baseUri: http://api.irresistibleapis.com/v1
         application/json:
           example: |
             { "pizza" : {
-              "name": "Zucchini",
-              "id"  : "4"
+                "name": "Zucchini",
+                "id"  : "4"
+              }
             }
       responses:
         204:
